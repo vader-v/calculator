@@ -26,7 +26,8 @@ body {
   padding-right: .5em;
   background: #ecf0f3;
   border-radius: 6px;
-  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+  box-shadow: inset 8px 8px 8px #cbced1, 
+              inset -8px -8px 8px #ffffff;
 }
 
 .btns {
@@ -36,4 +37,16 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.btns .row button {
+  width: 40px;
+  height: 20px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  margin: 5px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 8px #000020,
+            -5px -5px 8px #ffffff;
 }
